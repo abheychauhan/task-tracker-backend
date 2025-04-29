@@ -8,7 +8,7 @@ const cors = require('cors');
 
 app = express();
 app.use(cors({
-    origin: 'http://localhost:5173', // Replace with your frontend URL
+    origin: 'https://task-tracker-frontend-orpin.vercel.app', // Replace with your frontend URL
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
 }))
